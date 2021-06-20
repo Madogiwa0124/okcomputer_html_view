@@ -12,7 +12,7 @@ RSpec.describe OkComputer::OkComputerController, type: :request do
 
       it "performs the basic up check as HTML" do
         get "/health_checks/all.html"
-        expect(response.body).to include "OkComputer"
+        expect(response.body).to include "OK Computer"
         expect(response.body).to include "test_check"
         expect(response.body).to include "PASSED"
         expect(response.body).to include "successed!"
@@ -52,7 +52,7 @@ RSpec.describe OkComputer::OkComputerController, type: :request do
 
       it "performs the basic up check as HTML" do
         get "/health_checks/test_check.html"
-        expect(response.body).to include "OkComputer"
+        expect(response.body).to include "OK Computer"
         expect(response.body).to include "test_check"
         expect(response.body).to include "PASSED"
         expect(response.body).to include "successed!"

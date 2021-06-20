@@ -1,4 +1,4 @@
-# OkcomputerHtmlView
+# OK Computer Html View
 
 This gem provide html view for [OK Computer](https://github.com/sportngin/okcomputer).
 
