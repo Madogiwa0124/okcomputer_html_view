@@ -8,6 +8,11 @@ This gem provide html view for [OK Computer](https://github.com/sportngin/okcomp
 
 Add this line to your application's Gemfile:
 
+``` ruby
+gem 'okcomputer_html_view'
+```
+or
+
 ```ruby
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
